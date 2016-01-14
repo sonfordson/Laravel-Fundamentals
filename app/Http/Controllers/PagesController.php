@@ -15,11 +15,20 @@ class PagesController extends Controller {
 
 	public function about()
 	{
-		$data =[];
-		$data['first'] = 'Sonford Son';
-		$data['last'] = 'Onyango Son';
-		return view('pages.about',$data);
+		$people = [
+			'Sonford son',
+			'phidel onyango',
+			'phidel  Anyango',
+		];
+		return view('pages.about',compact('people'));
 	}
+
+
+	public function contact()
+	{
+		return view('pages.contact');
+	}
+
 	public function index()
 	{
 		//
