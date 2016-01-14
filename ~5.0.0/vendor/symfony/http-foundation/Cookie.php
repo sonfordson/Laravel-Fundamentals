@@ -179,7 +179,7 @@ class Cookie
     }
 
     /**
-     * Whether this cookie is about to be cleared.
+     * Whether this cookie is pages to be cleared.
      *
      * @return bool
      */

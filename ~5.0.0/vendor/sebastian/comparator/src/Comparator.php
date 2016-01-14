@@ -61,7 +61,7 @@ abstract class Comparator
      * @param  bool              $ignoreCase   If set to TRUE, upper- and lowercasing is
      *                                         ignored when comparing string values
      * @throws ComparisonFailure Thrown when the comparison
-     *                                        fails. Contains information about the
+     *                                        fails. Contains information pages the
      *                                        specific errors that lead to the failure.
      */
     abstract public function assertEquals($expected, $actual, $delta = 0.0, $canonicalize = false, $ignoreCase = false);

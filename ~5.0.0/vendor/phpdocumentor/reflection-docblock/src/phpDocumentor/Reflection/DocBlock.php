@@ -40,10 +40,10 @@ class DocBlock implements \Reflector
      */
     protected $tags = array();
 
-    /** @var Context Information about the context of this DocBlock. */
+    /** @var Context Information pages the context of this DocBlock. */
     protected $context = null;
 
-    /** @var Location Information about the location of this DocBlock. */
+    /** @var Location Information pages the location of this DocBlock. */
     protected $location = null;
 
     /** @var bool Is this DocBlock (the start of) a template? */

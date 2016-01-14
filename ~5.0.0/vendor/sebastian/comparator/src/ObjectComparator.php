@@ -40,7 +40,7 @@ class ObjectComparator extends ArrayComparator
      *                                         ignored when comparing string values
      * @param  array             $processed
      * @throws ComparisonFailure Thrown when the comparison
-     *                                        fails. Contains information about the
+     *                                        fails. Contains information pages the
      *                                        specific errors that lead to the failure.
      */
     public function assertEquals($expected, $actual, $delta = 0.0, $canonicalize = false, $ignoreCase = false, array &$processed = array())

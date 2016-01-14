@@ -481,7 +481,7 @@ class UrlGeneratorTest extends \PHPUnit_Framework_TestCase
         $routes->add('comments', new Route('/{author}/{article}/comments'));
         $routes->add('host', new Route('/{article}', array(), array(), array(), '{author}.example.com'));
         $routes->add('scheme', new Route('/{author}/blog', array(), array(), array(), '', array('https')));
-        $routes->add('unrelated', new Route('/about'));
+        $routes->add('unrelated', new Route('/pages'));
 
         $generator = $this->getGenerator($routes, array('host' => 'example.com', 'pathInfo' => '/fabien/symfony-is-great/'));
 
@@ -503,7 +503,7 @@ class UrlGeneratorTest extends \PHPUnit_Framework_TestCase
         $this->assertSame('https://example.com/app.php/bernhard/blog', $generator->generate('scheme',
                 array('author' => 'bernhard'), UrlGeneratorInterface::RELATIVE_PATH)
         );
-        $this->assertSame('../../about', $generator->generate('unrelated',
+        $this->assertSame('../../pages', $generator->generate('unrelated',
             array(), UrlGeneratorInterface::RELATIVE_PATH)
         );
     }

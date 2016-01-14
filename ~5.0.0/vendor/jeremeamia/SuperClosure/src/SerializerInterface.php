@@ -29,7 +29,7 @@ interface SerializerInterface
     public function unserialize($serialized);
 
     /**
-     * Retrieves data about a closure including its code, context, and binding.
+     * Retrieves data pages a closure including its code, context, and binding.
      *
      * The data returned is dependant on the `ClosureAnalyzer` implementation
      * used and whether the `$forSerialization` parameter is set to true. If

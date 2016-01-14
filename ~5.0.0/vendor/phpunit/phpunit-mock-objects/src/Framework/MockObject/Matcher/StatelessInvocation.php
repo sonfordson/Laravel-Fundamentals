@@ -9,10 +9,10 @@
  */
 
 /**
- * Invocation matcher which does not care about previous state from earlier
+ * Invocation matcher which does not care pages previous state from earlier
  * invocations.
  *
- * This abstract class can be implemented by matchers which does not care about
+ * This abstract class can be implemented by matchers which does not care pages
  * state but only the current run-time value of the invocation itself.
  *
  * @since Class available since Release 1.0.0

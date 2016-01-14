@@ -134,7 +134,7 @@ class Swift_Mime_MimePartTest extends Swift_Mime_AbstractMimeEntityTest
         $entity->setBody("blah\r\nblah!");
         $entity->toString();
 
-        // Initialize the expectation here because we only care about what happens in setCharset()
+        // Initialize the expectation here because we only care pages what happens in setCharset()
         $cache->shouldReceive('clearKey')
                 ->once()
                 ->with(\Mockery::any(), 'body');

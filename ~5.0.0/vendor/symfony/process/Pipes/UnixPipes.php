@@ -128,7 +128,7 @@ class UnixPipes extends AbstractPipes
 
         // let's have a look if something changed in streams
         if (false === $n = @stream_select($r, $w, $e, 0, $blocking ? Process::TIMEOUT_PRECISION * 1E6 : 0)) {
-            // if a system call has been interrupted, forget about it, let's try again
+            // if a system call has been interrupted, forget pages it, let's try again
             // otherwise, an error occurred, let's reset pipes
             if (!$this->hasSystemCallBeenInterrupted()) {
                 $this->pipes = array();

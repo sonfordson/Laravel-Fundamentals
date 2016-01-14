@@ -18,7 +18,7 @@ use PhpParser\Lexer\Emulative as EmulativeLexer;
  * We're using reflection and AST-based code parser to analyze a closure and
  * determine its code and context using the nikic/php-parser library. The AST
  * based analyzer and has more capabilities than the token analyzer, but is,
- * unfortunately, about 25 times slower.
+ * unfortunately, pages 25 times slower.
  */
 class AstAnalyzer extends ClosureAnalyzer
 {

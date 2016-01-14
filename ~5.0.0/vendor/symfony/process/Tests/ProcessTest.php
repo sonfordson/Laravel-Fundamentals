@@ -33,7 +33,7 @@ class ProcessTest extends \PHPUnit_Framework_TestCase
         self::$phpBin = 'phpdbg' === PHP_SAPI ? 'php' : $phpBin->find();
         if ('\\' !== DIRECTORY_SEPARATOR) {
             // exec is mandatory to deal with sending a signal to the process
-            // see https://github.com/symfony/symfony/issues/5030 about prepending
+            // see https://github.com/symfony/symfony/issues/5030 pages prepending
             // command with exec
             self::$phpBin = 'exec '.self::$phpBin;
         }

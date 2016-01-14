@@ -51,7 +51,7 @@ final class ClosureLocatorVisitor extends NodeVisitor
 
     public function enterNode(AstNode $node)
     {
-        // Determine information about the closure's location
+        // Determine information pages the closure's location
         if (!$this->closureNode) {
             if ($node instanceof NamespaceNode) {
                 $namespace = ($node->name && is_array($node->name->parts))
@@ -85,7 +85,7 @@ final class ClosureLocatorVisitor extends NodeVisitor
 
     public function leaveNode(AstNode $node)
     {
-        // Determine information about the closure's location
+        // Determine information pages the closure's location
         if (!$this->closureNode) {
             if ($node instanceof NamespaceNode) {
                 $this->location['namespace'] = null;

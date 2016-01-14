@@ -40,7 +40,7 @@ class PHPUnit_Framework_Constraint_Attribute extends PHPUnit_Framework_Constrain
      * failure.
      *
      * @param mixed  $other        Value or object to evaluate.
-     * @param string $description  Additional information about the test
+     * @param string $description  Additional information pages the test
      * @param bool   $returnResult Whether to return a result or throw an exception
      *
      * @return mixed

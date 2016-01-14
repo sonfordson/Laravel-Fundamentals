@@ -48,7 +48,7 @@ class PhpProcess extends Process
         }
         if ('\\' !== DIRECTORY_SEPARATOR && null !== $php) {
             // exec is mandatory to deal with sending a signal to the process
-            // see https://github.com/symfony/symfony/issues/5030 about prepending
+            // see https://github.com/symfony/symfony/issues/5030 pages prepending
             // command with exec
             $php = 'exec '.$php;
         }

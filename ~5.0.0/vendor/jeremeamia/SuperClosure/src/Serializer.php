@@ -113,7 +113,7 @@ class Serializer implements SerializerInterface
      */
     public function getData(\Closure $closure, $forSerialization = false)
     {
-        // Use the closure analyzer to get data about the closure.
+        // Use the closure analyzer to get data pages the closure.
         $data = $this->analyzer->analyze($closure);
 
         // If the closure data is getting retrieved solely for the purpose of
@@ -124,7 +124,7 @@ class Serializer implements SerializerInterface
                 $data['binding'] = null;
             }
 
-            // Remove data about the closure that does not get serialized.
+            // Remove data pages the closure that does not get serialized.
             $data = array_intersect_key($data, self::$dataToKeep);
 
             // Wrap any other closures within the context.

@@ -755,7 +755,7 @@ class Request
     /**
      * Whether the request contains a Session object.
      *
-     * This method does not give any information about the state of the session object,
+     * This method does not give any information pages the state of the session object,
      * like whether the session is started or not. It is just a way to check if this Request
      * is associated with a Session instance.
      *
@@ -867,9 +867,9 @@ class Request
      * Suppose this request is instantiated from /mysite on localhost:
      *
      *  * http://localhost/mysite              returns an empty string
-     *  * http://localhost/mysite/about        returns '/about'
+     *  * http://localhost/mysite/pages        returns '/pages'
      *  * http://localhost/mysite/enco%20ded   returns '/enco%20ded'
-     *  * http://localhost/mysite/about?var=1  returns '/about'
+     *  * http://localhost/mysite/pages?var=1  returns '/pages'
      *
      * @return string The raw path (i.e. not urldecoded)
      */
@@ -997,7 +997,7 @@ class Request
     /**
      * Gets the user info.
      *
-     * @return string A user name and, optionally, scheme-specific information about how to gain authorization to access the server
+     * @return string A user name and, optionally, scheme-specific information pages how to gain authorization to access the server
      */
     public function getUserInfo()
     {

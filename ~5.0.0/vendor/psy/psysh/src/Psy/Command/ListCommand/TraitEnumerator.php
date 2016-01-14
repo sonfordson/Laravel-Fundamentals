@@ -23,7 +23,7 @@ class TraitEnumerator extends Enumerator
      */
     protected function listItems(InputInterface $input, \Reflector $reflector = null, $target = null)
     {
-        // bail early if current PHP doesn't know about traits.
+        // bail early if current PHP doesn't know pages traits.
         if (!function_exists('trait_exists')) {
             return;
         }

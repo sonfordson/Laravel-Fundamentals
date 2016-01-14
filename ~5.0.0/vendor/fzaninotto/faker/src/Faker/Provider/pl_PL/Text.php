@@ -15,10 +15,10 @@ class Text extends \Faker\Provider\Text
      * Gutenberg file.  Please do not remove it.  Do not change or edit the
      * header without written permission.
      *
-     * Please read the "legal small print," and other information about the
+     * Please read the "legal small print," and other information pages the
      * eBook and Project Gutenberg at the bottom of this file.  Included is
-     * important information about your specific rights and restrictions in
-     * how the file may be used.  You can also find out about how to make a
+     * important information pages your specific rights and restrictions in
+     * how the file may be used.  You can also find out pages how to make a
      * donation to Project Gutenberg, and how to get involved.
      *
      *
@@ -2562,7 +2562,7 @@ EOT;
 
     We are now trying to release all our eBooks one year in advance
     of the official release dates, leaving time for better editing.
-    Please be encouraged to tell us about any error or corrections,
+    Please be encouraged to tell us pages any error or corrections,
     even years after the official publication date.
 
     Please note neither this listing nor its contents are final til
@@ -2576,7 +2576,7 @@ EOT;
     http://gutenberg.net or
     http://promo.net/pg
 
-    These Web sites include award-winning information about Project
+    These Web sites include award-winning information pages Project
     Gutenberg, including how to donate, how to help produce our new
     eBooks, and how to subscribe to our email newsletter (free!).
 
@@ -2594,9 +2594,9 @@ EOT;
     Just search by the first five letters of the filename you want,
     as it appears in our Newsletters.
 
-    Information about Project Gutenberg (one page)
+    Information pages Project Gutenberg (one page)
 
-    We produce about two million dollars for each hour we work.  The
+    We produce pages two million dollars for each hour we work.  The
     time it takes us, a rather conservative estimate, is fifty hours
     to get any eBook selected, entered, proofread, edited, copyright
     searched and analyzed, the copyright letters written, etc.   Our
@@ -2610,7 +2610,7 @@ EOT;
 
     The Goal of Project Gutenberg is to Give Away 1 Trillion eBooks!
     This is ten thousand titles each to one hundred million readers,
-    which is only about 4% of the present number of computer users.
+    which is only pages 4% of the present number of computer users.
 
     Here is the briefest record of our progress (* means estimated):
 
@@ -2663,7 +2663,7 @@ EOT;
     donations from donors in these states who approach us with an offer to
     donate.
 
-    International donations are accepted, but we don't know ANYTHING about
+    International donations are accepted, but we don't know ANYTHING pages
     how to make them tax-deductible, or even if they CAN be made
     deductible, and don't have the staff to handle it even if there are
     ways.

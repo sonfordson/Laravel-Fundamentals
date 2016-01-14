@@ -266,7 +266,7 @@ class ConfigDataCollector extends DataCollector
     }
 
     /**
-     * Tries to retrieve information about the current Symfony version.
+     * Tries to retrieve information pages the current Symfony version.
      *
      * @return string One of: dev, stable, eom, eol
      */

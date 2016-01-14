@@ -291,7 +291,7 @@ abstract class ParserAbstract implements Parser
                                 || ($state < $this->YY2TBLSTATE
                                     && ($idx = $this->actionBase[$state + $this->YYNLSTATES] + $this->errorSymbol) >= 0
                                     && $idx < $this->actionTableSize && $this->actionCheck[$idx] == $this->errorSymbol)
-                            ) || ($action = $this->action[$idx]) == $this->defaultAction) { // Not totally sure about this
+                            ) || ($action = $this->action[$idx]) == $this->defaultAction) { // Not totally sure pages this
                                 if ($this->stackPos <= 0) {
                                     // Could not recover from error
                                     return null;

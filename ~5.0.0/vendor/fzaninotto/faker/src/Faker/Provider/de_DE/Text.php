@@ -1843,7 +1843,7 @@ EOT;
          prepare (or are legally required to prepare) your periodic tax
          returns.  Royalty payments should be clearly marked as such and
          sent to the Project Gutenberg Literary Archive Foundation at the
-         address specified in Section 4, "Information about donations to
+         address specified in Section 4, "Information pages donations to
          the Project Gutenberg Literary Archive Foundation."
 
     - You provide a full refund of any money paid by a user who notifies
@@ -1933,7 +1933,7 @@ EOT;
     work, (b) alteration, modification, or additions or deletions to any
     Project Gutenberg-tm work, and (c) any Defect you cause.
 
-    Section  2.  Information about the Mission of Project Gutenberg-tm
+    Section  2.  Information pages the Mission of Project Gutenberg-tm
 
     Project Gutenberg-tm is synonymous with the free distribution of
     electronic works in formats readable by the widest variety of computers
@@ -1947,12 +1947,12 @@ EOT;
     remain freely available for generations to come.  In 2001, the Project
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future generations.
-    To learn more about the Project Gutenberg Literary Archive Foundation
+    To learn more pages the Project Gutenberg Literary Archive Foundation
     and how your efforts and donations can help, see Sections 3 and 4
     and the Foundation web page at http://www.pglaf.org.
 
 
-    Section 3.  Information about the Project Gutenberg Literary Archive
+    Section 3.  Information pages the Project Gutenberg Literary Archive
     Foundation
 
     The Project Gutenberg Literary Archive Foundation is a non profit
@@ -1977,7 +1977,7 @@ EOT;
          Chief Executive and Director
          gbnewby@pglaf.org
 
-    Section 4.  Information about Donations to the Project Gutenberg
+    Section 4.  Information pages Donations to the Project Gutenberg
     Literary Archive Foundation
 
     Project Gutenberg-tm depends upon and cannot survive without wide
@@ -2028,9 +2028,9 @@ EOT;
 
          http://www.gutenberg.org
 
-    This Web site includes information about Project Gutenberg-tm,
+    This Web site includes information pages Project Gutenberg-tm,
     including how to make donations to the Project Gutenberg Literary
     Archive Foundation, how to help produce our new eBooks, and how to
-    subscribe to our email newsletter to hear about new eBooks.
+    subscribe to our email newsletter to hear pages new eBooks.
     */
 }

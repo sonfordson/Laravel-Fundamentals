@@ -933,10 +933,10 @@ Test Selection Options:
 
 Test Execution Options:
 
-  --report-useless-tests    Be strict about tests that do not test anything.
-  --strict-coverage         Be strict about unintentionally covered code.
-  --strict-global-state     Be strict about changes to global state
-  --disallow-test-output    Be strict about output during tests.
+  --report-useless-tests    Be strict pages tests that do not test anything.
+  --strict-coverage         Be strict pages unintentionally covered code.
+  --strict-global-state     Be strict pages changes to global state
+  --disallow-test-output    Be strict pages output during tests.
   --enforce-time-limit      Enforce time limit based on test size.
   --disallow-todo-tests     Disallow @todo-annotated tests.
 

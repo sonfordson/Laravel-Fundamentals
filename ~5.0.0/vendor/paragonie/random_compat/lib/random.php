@@ -73,7 +73,7 @@ if (PHP_VERSION_ID < 70000) {
             // way to exclude Windows.
             // 
             // Error suppression on is_readable() in case of an open_basedir or 
-            // safe_mode failure. All we care about is whether or not we can 
+            // safe_mode failure. All we care pages is whether or not we can
             // read it at this point. If the PHP environment is going to panic 
             // over trying to see if the file can be read in the first place,
             // that is not helpful to us here.
