@@ -12,4 +12,5 @@ class Article extends Model {
 
     ];
 
+
 }
